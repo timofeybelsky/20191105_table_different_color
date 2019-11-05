@@ -1,0 +1,105 @@
+table{
+    border-collapse: collapse;
+    width: 50vw;
+}
+
+.tableAll{
+    display: inline-block;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+thead td{
+    box-sizing: border-box;
+    padding: 10px 30px;
+    background-color: #7887ab;
+    color: white;
+    font-weight: 600;
+}
+
+thead h1+p{
+    margin-top: -20px;
+    margin-bottom: 0;
+}
+
+tbody td{
+    box-sizing: border-box;
+    padding: 15px 20px;
+    background-color: #ececec;
+}
+
+tfoot td{
+    box-sizing: border-box;
+    padding: 15px 20px;
+    background-color: #ececec;
+}
+
+tfoot td span{
+    box-sizing: border-box;
+    padding: 10px 30px;
+    background-color: #D3D3D3;
+    border: 1px solid darkgrey;
+    margin: 10px 0;
+}
+
+td + td{
+    text-align: center
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a span:hover{
+    box-shadow: inset 5px 5px 50px 0px rgba(0,0,0,0.5);
+}
+
+/* Фон у Головы */
+
+thead td:last-child{
+    background-color: #061539;
+}
+
+thead td:nth-last-child(2){
+    background-color: #162955;
+}
+
+thead td:nth-last-child(3){
+    background-color: #2E4172;
+}
+
+thead td:nth-last-child(4){
+    background-color: #4F628E;
+}
+
+
+
+/* Фон у Тела */
+
+tbody tr:nth-child(odd) td{
+    background-color: #DBDBDB;
+}
+
+tbody tr:nth-child(odd) td:nth-child(2n+2){
+    background-color: #E7E7E7;
+}
+
+tbody tr:nth-child(even) td:nth-child(2n+2){
+    background-color: #F3F3F3;
+}
+
+
+
+/* Фон у Подвала */
+
+tfoot td{
+    background-color: #DBDBDB;
+}
+
+tfoot td:nth-child(even){
+    background-color: #E7E7E7;
+}
+
+
+
